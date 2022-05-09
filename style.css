@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "PPNeueBit";
+  src: url(assets/PPNeueBit.otf);
+}
+@font-face {
+  font-family: "BasierSquare";
+  src: url(assets/BasierSquare.ttf);
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(137, 168, 207);
+  font-family: "PPNeueBit", "BasierSquare";
+}
+canvas {
+  display: block;
+}
+
+
+article{
+  float:right;
+  padding-top:100px;
+  padding-right:50px;
+  width:30%;
+  background-color: rgb(137, 168, 207);
+}
+
+h1{
+  float:right;
+  padding-right:50px;
+  width:30;
+  font-family: "PPNeueBit";
+  font-size: 3em;
+  line-height:30px;
+}
